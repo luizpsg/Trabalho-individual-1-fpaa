@@ -1,0 +1,15 @@
+ANÁLISE BIG-O - ALGORITMO DE KARATSUBA
+==================================================
+
+Data da análise: 2025-08-27 10:06:15.265382
+
+RESULTADOS DA ANÁLISE:
+  karatsuba_multiply: O(log(n)
+  traditional_multiply: O(log(n)
+  binary_search_wrapper: O(log(n)
+  linear_search_wrapper: O(n)
+  merge_sort: O(nlog(n))
+  bubble_sort: O(n^2)
+
+Complexidade do Algoritmo de Karatsuba: O(log(n)
+Complexidade da Multiplicação Tradicional: O(log(n)

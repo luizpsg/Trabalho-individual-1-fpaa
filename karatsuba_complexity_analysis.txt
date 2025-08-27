@@ -1,0 +1,2 @@
+Complexidade Ciclomática do Algoritmo de Karatsuba: 4
+Data da análise: 2025-08-27 09:58:01.339503
