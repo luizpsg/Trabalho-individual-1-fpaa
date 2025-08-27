@@ -65,7 +65,7 @@ def karatsuba_multiply(x, y):
 1. Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/luizpsg/Trabalho-individual-1-fpaa
 cd Trabalho-individual-1-fpaa
 ```
 
@@ -306,6 +306,19 @@ Trabalho-individual-1-fpaa/
 ├── README.md                            # Documentação completa do projeto
 └── .git/                                # Repositório Git
 ```
+
+## Agradecimentos
+
+### Projetos de Análise de Complexidade
+
+Este projeto utiliza ferramentas de análise automática desenvolvidas pelo professor da disciplina:
+
+- **[Projeto CyclomaticComplex](https://github.com/joaopauloaramuni/fundamentos-de-projeto-e-analise-de-algoritmos/tree/main/PROJETOS/Projeto%20CyclomaticComplex)** - Para análise automática da complexidade ciclomática
+- **[Projeto BigOComplex](https://github.com/joaopauloaramuni/fundamentos-de-projeto-e-analise-de-algoritmos/tree/main/PROJETOS/Projeto%20BigOComplex)** - Para análise automática da complexidade Big-O
+
+### Professor Responsável
+
+**Prof. João Paulo Aramuni** - Disciplina de Fundamentos de Projeto e Análise de Algoritmos
 
 ## Autoria
 
