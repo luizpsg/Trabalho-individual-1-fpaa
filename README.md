@@ -128,9 +128,9 @@ A função `karatsuba_multiply` possui o seguinte fluxo de controle:
 
 Abaixo está o grafo de fluxo visual do algoritmo de Karatsuba:
 
-![Grafo de Fluxo - Algoritmo de Karatsuba](karatsuba_flowchart.png)
+![Grafo de Fluxo - Algoritmo de Karatsuba](exports/karatsuba_flowchart.png)
 
-**Nota:** A imagem acima foi gerada automaticamente usando Graphviz, uma ferramenta profissional para criação de grafos. Arquivos em diferentes formatos (PNG, PDF, SVG) estão disponíveis no repositório.
+**Nota:** A imagem acima foi gerada automaticamente usando Graphviz, uma ferramenta profissional para criação de grafos. Arquivos em diferentes formatos (PNG, PDF, SVG) estão disponíveis na pasta `exports/`.
 
 #### Como Gerar as Visualizações do Grafo
 
@@ -139,6 +139,12 @@ Para gerar suas próprias visualizações do grafo de fluxo:
 ```bash
 python generate_graph.py
 ```
+
+**Arquivos gerados:**
+
+- `exports/karatsuba_flowchart.png` - Imagem PNG
+- `exports/karatsuba_flowchart.pdf` - Documento PDF
+- `exports/karatsuba_flowchart.svg` - Imagem vetorial SVG
 
 Requer: `pip install graphviz` + executável Graphviz instalado
 
@@ -200,7 +206,7 @@ Para analisar automaticamente a complexidade Big-O do algoritmo:
 3. **Verifique o resultado**:
 
    - O script imprimirá uma análise detalhada no terminal
-   - Os resultados serão salvos em `karatsuba_bigO_analysis.txt`
+   - Os resultados serão salvos em `exports/karatsuba_bigO_analysis.txt`
    - Inclui benchmark de performance com diferentes tamanhos de números
 
 4. **Interpretação**:
@@ -294,15 +300,16 @@ Trabalho-individual-1-fpaa/
 ├── main.py                              # Implementação do algoritmo de Karatsuba
 ├── test_karatsuba.py                    # Arquivo de teste adicional com benchmark
 ├── generate_graph.py                    # Script para gerar grafo visual (Graphviz)
-├── karatsuba_flowchart.png              # Imagem PNG do grafo de fluxo (Graphviz)
-├── karatsuba_flowchart.pdf              # Imagem PDF do grafo de fluxo (Graphviz)
-├── karatsuba_flowchart.svg              # Imagem SVG do grafo de fluxo (Graphviz)
 ├── CyclomaticComplex/                   # Projeto para análise de complexidade ciclomática
 ├── BigOComplex/                         # Projeto para análise de complexidade Big-O
 ├── analyze_karatsuba_complexity.py      # Script de análise da complexidade ciclomática
 ├── analyze_karatsuba_bigO.py            # Script de análise da complexidade Big-O
-├── karatsuba_complexity_analysis.txt    # Resultado da análise automática
-├── karatsuba_bigO_analysis.txt          # Resultado da análise Big-O automática
+├── exports/                             # Pasta com todos os arquivos de saída
+│   ├── karatsuba_flowchart.png          # Imagem PNG do grafo de fluxo (Graphviz)
+│   ├── karatsuba_flowchart.pdf          # Imagem PDF do grafo de fluxo (Graphviz)
+│   ├── karatsuba_flowchart.svg          # Imagem SVG do grafo de fluxo (Graphviz)
+│   ├── karatsuba_complexity_analysis.txt # Resultado da análise automática
+│   └── karatsuba_bigO_analysis.txt      # Resultado da análise Big-O automática
 ├── README.md                            # Documentação completa do projeto
 └── .git/                                # Repositório Git
 ```

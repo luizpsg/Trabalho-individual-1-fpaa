@@ -65,16 +65,16 @@ try:
         dot = create_karatsuba_flowchart()
 
         # Salvar como PNG
-        dot.render("karatsuba_flowchart", format="png", cleanup=True)
-        print("✓ Grafo salvo como 'karatsuba_flowchart.png'")
+        dot.render("exports/karatsuba_flowchart", format="png", cleanup=True)
+        print("✓ Grafo salvo como 'exports/karatsuba_flowchart.png'")
 
         # Salvar como SVG (mais nítido)
-        dot.render("karatsuba_flowchart", format="svg", cleanup=True)
-        print("✓ Grafo salvo como 'karatsuba_flowchart.svg'")
+        dot.render("exports/karatsuba_flowchart", format="svg", cleanup=True)
+        print("✓ Grafo salvo como 'exports/karatsuba_flowchart.svg'")
 
         # Salvar como PDF
-        dot.render("karatsuba_flowchart", format="pdf", cleanup=True)
-        print("✓ Grafo salvo como 'karatsuba_flowchart.pdf'")
+        dot.render("exports/karatsuba_flowchart", format="pdf", cleanup=True)
+        print("✓ Grafo salvo como 'exports/karatsuba_flowchart.pdf'")
 
         print("\nArquivos gerados com sucesso!")
         print("Você pode incluir a imagem no README.md")

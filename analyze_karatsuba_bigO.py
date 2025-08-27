@@ -258,7 +258,7 @@ def main():
         print("=" * 60)
 
         # Salvar resultados em arquivo
-        with open("karatsuba_bigO_analysis.txt", "w", encoding="utf-8") as f:
+        with open("exports/karatsuba_bigO_analysis.txt", "w", encoding="utf-8") as f:
             f.write("ANÁLISE BIG-O - ALGORITMO DE KARATSUBA\n")
             f.write("=" * 50 + "\n\n")
             f.write(f"Data da análise: {__import__('datetime').datetime.now()}\n\n")
@@ -274,7 +274,7 @@ def main():
                 f"Complexidade da Multiplicação Tradicional: {results.get('traditional_multiply', 'N/A')}\n"
             )
 
-        print(f"\n💾 Resultados salvos em: karatsuba_bigO_analysis.txt")
+        print(f"\n💾 Resultados salvos em: exports/karatsuba_bigO_analysis.txt")
 
     except Exception as e:
         print(f"❌ Erro durante a análise: {e}")

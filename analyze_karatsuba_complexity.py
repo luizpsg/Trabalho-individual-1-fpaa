@@ -133,7 +133,9 @@ def main():
         print("=" * 60)
 
         # Salvar resultado em arquivo
-        with open("karatsuba_complexity_analysis.txt", "w", encoding="utf-8") as f:
+        with open(
+            "exports/karatsuba_complexity_analysis.txt", "w", encoding="utf-8"
+        ) as f:
             f.write(
                 f"Complexidade Ciclomática do Algoritmo de Karatsuba: {complexity}\n"
             )
@@ -141,7 +143,7 @@ def main():
                 "Data da análise: " + str(__import__("datetime").datetime.now()) + "\n"
             )
 
-        print(f"\n💾 Resultado salvo em: karatsuba_complexity_analysis.txt")
+        print(f"\n💾 Resultado salvo em: exports/karatsuba_complexity_analysis.txt")
 
     except Exception as e:
         print(f"❌ Erro durante a análise: {e}")
